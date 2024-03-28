@@ -1,0 +1,21 @@
+.loading {
+    height: 30vw;
+    width: 90vw;
+    display: flex;
+    background: transparent;
+}
+.loading img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    animation: rotatee 1s steps(12) infinite;
+}
+
+@keyframes rotatee {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
